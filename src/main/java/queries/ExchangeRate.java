@@ -15,7 +15,7 @@ import com.google.gson.GsonBuilder;
 public class ExchangeRate {
 
     public static ApiResponse query(String pair1, String pair2) {
-        String apiKey = "e137e5082a5d2c8a3fe35e2f";
+        String apiKey = YOUR-API-KEY;
         Gson gson = new GsonBuilder().setPrettyPrinting().create();
 
         try {
